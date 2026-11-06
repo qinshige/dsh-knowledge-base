@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "我的知识库",
+    "description": "上传跨境选品知识文档（支持 Markdown / TXT / DOCX / XLSX / CSV / HTML），Agent 先检索知识库，再据此回答选品问题。"
+  }
+}

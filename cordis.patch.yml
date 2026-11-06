@@ -1,0 +1,9 @@
+# dsh-knowledge-base 的 bundle patch。
+#
+# 只是把本插件的宿主行插入 profile 的层栈；宿主行同时承载
+# client 半（`dsh.client` 在 package.json 里声明，clientModules 自动扫描）。
+# 后层按 `id` 覆盖前层，且 `config` 是整段替换——需要覆盖时请重述全部键。
+- insert:
+    - id: dsh-knowledge-base
+      name: dsh-knowledge-base
+      config: {}
